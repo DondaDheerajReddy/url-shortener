@@ -82,7 +82,7 @@ DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=url_shortener
 DB_USER=postgres
-DB_PASSWORD=your-password
+DB_PASSWORD=your_password
 
 # Redis
 REDIS_HOST=localhost
