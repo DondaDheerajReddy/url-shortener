@@ -79,20 +79,10 @@ src/
 ### Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DondaDheerajReddy/url-shortener.git
 cd url-shortener-frontend
 npm install
 ```
-
-### Environment Variables
-
-Create a `.env.local` file in the project root:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
-```
-
-Set this to your backend's base URL.
 
 ### Run
 
