@@ -71,7 +71,7 @@ npm install
 
 ### Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the backend folder:
 
 ```env
 PORT=3000
