@@ -77,16 +77,19 @@ PORT=3000
 BASE_URL=http://localhost:3000
 
 # PostgreSQL
-DATABASE_URL=postgresql://user:password@localhost:5432/urlshortener
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=url_shortener
+DB_USER=postgres
+DB_PASSWORD=your-password
 
 # Redis
 REDIS_HOST=localhost
 REDIS_PORT=6379
-REDIS_PASSWORD=
 
 # JWT
 JWT_SECRET=your_super_secret_key
-JWT_EXPIRES_IN=7d
+JWT_EXPIRES=7d
 ```
 
 ### Run
