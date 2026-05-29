@@ -65,6 +65,7 @@ src/
 ```bash
 git clone https://github.com/DondaDheerajReddy/url-shortener.git
 cd url-shortener
+cd backend
 npm install
 ```
 
