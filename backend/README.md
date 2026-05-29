@@ -63,7 +63,7 @@ src/
 ### Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DondaDheerajReddy/url-shortener.git
 cd url-shortener
 npm install
 ```
