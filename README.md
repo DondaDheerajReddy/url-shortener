@@ -35,6 +35,34 @@ A full-stack URL shortening app. Paste a long URL, get a short one — with clic
 
 ---
 
+## Prerequisites
+
+Before running anything, make sure you have the following installed:
+
+- Node.js 18+
+- PostgreSQL
+- Redis
+
+Then create the database:
+
+```bash
+psql -U postgres
+```
+
+Once inside the PostgreSQL shell, run:
+
+```sql
+CREATE DATABASE url_shortener;
+```
+
+Then exit the shell:
+
+```sql
+\q
+```
+
+> The backend will automatically create the required tables on first startup — no manual migration needed.
+
 ## Getting Started
 
 Each package has its own setup guide, environment variables, and run instructions — start there:
