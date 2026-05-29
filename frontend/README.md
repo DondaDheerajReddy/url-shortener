@@ -79,7 +79,7 @@ src/
 ### Installation
 
 ```bash
-git clone https://github.com/DondaDheerajReddy/url-shortener.git
+git clone https://github.com/DondaDheerajReddy/url-shortener.git           (ignore if already cloned)
 cd frontend
 npm install
 ```
@@ -95,7 +95,7 @@ npm run build
 npm start
 ```
 
-The app runs at `http://localhost:3001` by default (Next.js picks the next available port if 3000 is taken by the backend).
+The app runs at `http://localhost:3001` by default.
 
 ---
 
