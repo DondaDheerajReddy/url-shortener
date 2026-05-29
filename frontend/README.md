@@ -80,7 +80,7 @@ src/
 
 ```bash
 git clone https://github.com/DondaDheerajReddy/url-shortener.git
-cd url-shortener-frontend
+cd frontend
 npm install
 ```
 
